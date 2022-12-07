@@ -32,11 +32,12 @@
                <p class="card-text">Lokasi: <?= $prod['lokasiHotel']; ?></p>
                <p class="card-text">Deskripsi: <?= $prod['deskripsiHotel']; ?></p>
                <div class="card-body">
-                  <span><button class="btn btn-primary">Edit</button> <button class="btn btn-primary">Delete</button></span>
+                  <span><a class="btn btn-primary" href="http://localhost/travelight/public/products/edit/<?=$prod['idHotel'];?>">Edit</a>
+                  <a class="btn btn-danger" href="http://localhost/travelight/public/products/delete/<?=$prod['idHotel'];?>" onclick="return confirm('Apakah Anda yakin menghapus hotel ini?')">Delete</a> </span>
                </div>
                <p class="card-text">Kamar:</p>
                <div class="card-body">
-                  <span><button class="btn btn-primary">Add</button> <button class="btn btn-primary">Edit</button></span>
+                  <span><button class="btn btn-primary" onclick="location.href='http://localhost/travelight/public/rooms/add';">Add</button> <button class="btn btn-primary">Edit</button></span>
                </div>
                </div>
             </div>

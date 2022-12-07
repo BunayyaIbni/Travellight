@@ -18,22 +18,23 @@
                 <?php if(isset($validation)):?>
                     <div class="alert alert-danger"><?= $validation->listErrors() ?></div>
                 <?php endif;?>
-                <form action="edit/save" method="post">
+                <form action="<?= base_url('products/update/' . $product['idHotel']) ?>" method="post">
+                    <?= csrf_field(); ?>
                     <div class="mb-3">
                         <label for="InputForName" class="form-label">Name</label>
-                        <input type="text" name="name" class="form-control" id="InputForName">
+                        <input type="text" name="name" class="form-control" id="InputForName" value="<?= $product['namaHotel']; ?>">
                     </div>
                     <div class="mb-3">
                         <label for="InputForLocation" class="form-label">Location</label>
-                        <input type="text" name="location" class="form-control" id="InputForLocation">
+                        <input type="text" name="location" class="form-control" id="InputForLocation" value="<?= $product['lokasiHotel']; ?>">
                     </div>
                     <div class="mb-3">
                         <label for="InputForDesc" class="form-label">Description</label>
-                        <input type="text" name="desc" class="form-control" id="InputForDesc">
+                        <input type="text" name="desc" class="form-control" id="InputForDesc" value="<?= $product['deskripsiHotel']; ?>">
                     </div>
                     <div class="mb-3">
                         <label for="InputForUrlGbr" class="form-label">Url Hotel Picture</label>
-                        <input type="text" name="urlGambarHotel" class="form-control" id="InputForUrlGbr">
+                        <input type="text" name="urlGambarHotel" class="form-control" id="InputForUrlGbr" value="<?= $product['urlGambarHotel']; ?>">
                     </div>
                     <button type="submit" class="btn btn-primary">Edit</button>
                 </form>

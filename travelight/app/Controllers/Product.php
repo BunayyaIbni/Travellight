@@ -7,6 +7,13 @@ use App\Models\HotelModel;
 
 class Product extends BaseController
 {
+    protected $product;
+ 
+    function __construct()
+    {
+        $this->product = new HotelModel();
+    }
+
     public function index()
     {
         if (! session()->get('logged_in')){
@@ -55,13 +62,59 @@ class Product extends BaseController
         }
     }
 
-    public function edit() 
+    function edit($id)
     {
-        return view('products_edit');
+        $dataProduct = $this->product->find($id);
+        if (empty($dataProduct)){
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Data Produk tidak ditemukan');
+        }
+        $data['product'] = $dataProduct;
+        return view('products_edit', $data);
     }
 
-    public function edit_product()
+    public function update($id)
     {
-        
+        if (!$this->validate([
+            'name' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} harus diisi'
+                ]
+            ],
+            'location' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} harus diisi'
+                ]
+            ],
+            'desc' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} harus diisi'
+                ]
+            ],
+        ])) {
+            session()->setFlashdata('error', $this->validator->listErrors());
+            return redirect()->back();
+        }
+
+        $this->product->update($id, [
+            'namaHotel' => $this->request->getVar('name'),
+            'lokasiHotel' => $this->request->getVar('location'),
+            'deskripsiHotel' => $this->request->getVar('desc'),
+            'urlGambarHotel'     => $this->request->getVar('urlGambarHotel')
+        ]);
+        session()->setFlashdata('message', 'Update Data Produk Berhasil');
+        return redirect()->to('/products');
+    }
+
+    function delete($id){
+        $dataProduct = $this->product->find($id);
+        if (empty($dataProduct)){
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Data produk tidak ditemukan');
+        }
+        $this->product->delete($id);
+        session()->setFlashdata('message', 'Delete Data Produk Berhasil');
+        return redirect()->to('/products');
     }
 }

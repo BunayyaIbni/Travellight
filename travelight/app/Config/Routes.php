@@ -36,9 +36,7 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->get('/navbar', 'Home::navbar');
 
-$routes->get('/signup', 'Home::sign_up');
 $routes->get('/signup/customer', 'SignUp::customer');
 $routes->get('/signup/owner', 'SignUp::owner');
 $routes->post('/signup/customer/save', 'SignUp::save_customer');
@@ -53,17 +51,22 @@ $routes->post('/login/owner/owner_auth', 'Login::owner_auth');
 $routes->get('/login/admin', 'Login::admin');
 $routes->post('/login/admin/admin_auth', 'Login::admin_auth');
 
-$routes->get('/customer', 'Profile::index');
+$routes->get('/tampilseluruhdata', 'TampilSeluruhData::customer');
+$routes->get('/customer/edit/(:num)', 'Profile::edit/$1');
+$routes->post('customer/update/(:num)', 'Profile::update/$1');
 
 $routes->get('/products', 'Product::index');
 $routes->get('/products/add', 'Product::add');
 $routes->post('/products/add/save', 'Product::save_product');
-// $routes->get('/products/edit', 'Product::edit');
-// $routes->post('/products/edit/save', 'Product::edit_product');
+$routes->get('/products/edit/(:num)', 'Product::edit/$1');
+$routes->post('products/update/(:num)', 'Product::update/$1');
+$routes->get('products/delete/(:num)', 'Product::delete/$1');
+
+$routes->get('/rooms', 'Room::index');
+$routes->get('/rooms/add', 'Room::add');
 
 $routes->get('/dashboard', 'Dashboard::index');
 $routes->get('/logout', 'Login::logout');
-$routes->get('/landing', 'Login::landing');
 
 /*
  * --------------------------------------------------------------------

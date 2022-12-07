@@ -28,22 +28,16 @@
             <th>email</th>
             <th>alamat</th>
         </tr>
-        <?php
-        foreach($customer as $row) {
-        ?>
-         <tr>
-               <td><?= $row['idCustomer']; ?></td>
-               <td><?= $row['username']; ?></td>
-               <td><?= $row['password']; ?></td>
-               <td><?= $row['urlFotoProfil']; ?></td>
-               <td><?= $row['namaCustomer']; ?></td>
-               <td><?= $row['noHpCustomer']; ?></td>
-               <td><?= $row['emailCustomer']; ?></td>
-               <td><?= $row['alamatCustomer']; ?></td>
-         </tr>
-        <?php
-         }  
-        ?>
+        <tr>
+            <td><?= session()->get('idCustomer'); ?></td>
+            <td><?= session()->get('username'); ?></td>
+            <td><?= session()->get('password'); ?></td>
+            <td><?= session()->get('urlProfile'); ?></td>
+            <td><?= session()->get('namaCustomer'); ?></td>
+            <td><?= session()->get('noHpCustomer'); ?></td>
+            <td><?= session()->get('emailCustomer'); ?></td>
+            <td><?= session()->get('alamatCustomer'); ?></td>
+        </tr>
         </table>
       <a class="btn btn-primary btn-lg" href="<?= base_url('/customer/edit'); ?>" role="button">Edit Data</a>
       <a class="btn btn-primary btn-lg" href="<?= base_url('/logout'); ?>" role="button">Logout</a>

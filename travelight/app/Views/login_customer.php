@@ -29,6 +29,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
+                <p>belum punya akun? <a href="http://localhost/travelight/public/signup/customer">Daftar</a></p>
             </div>
              
         </div>

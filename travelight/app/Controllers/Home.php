@@ -9,9 +9,4 @@ class Home extends BaseController
         //return view('welcome_message');
         echo view('landingpage');
     }
-
-    public function sign_up()
-    {
-        return view('signup');
-    }
 }

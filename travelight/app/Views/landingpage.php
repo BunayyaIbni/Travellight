@@ -19,10 +19,6 @@
         <?php if(session()->getFlashdata('gagal')):?>
         <div class="alert alert-danger"><?= session()->getFlashdata('gagal') ?></div>
         <?php endif;?>
-
-        <button type="button" class="btn btn-primary" onclick="location.href='http://localhost/travelight/public/signup';">Sign Up</button>
-        <br></br>
-        <br></br>
         
         <h3>Log In</h3>
         </br>
