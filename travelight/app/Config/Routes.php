@@ -61,6 +61,7 @@ $routes->post('/products/add/save', 'Product::save_product');
 $routes->get('/products/edit/(:num)', 'Product::edit/$1');
 $routes->post('products/update/(:num)', 'Product::update/$1');
 $routes->get('products/delete/(:num)', 'Product::delete/$1');
+$routes->get('/products/view/(:num)', 'Dashboard::view/$1');
 
 $routes->get('/rooms', 'Room::index');
 $routes->get('/rooms/add', 'Room::add');

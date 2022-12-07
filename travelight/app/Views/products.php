@@ -48,7 +48,7 @@
       ?>
       <button class="btn btn-primary" onclick="location.href='http://localhost/travelight/public/products/add';">Add Product</button>
       <br></br>
-      <a class="btn btn-primary btn-lg" href="<?= base_url('/logout'); ?>" role="button">Logout</a>
+      <a class="btn btn-danger" href="<?= base_url('/logout'); ?>" role="button">Logout</a>
    </div>
 
    <!-- Optional JavaScript -->

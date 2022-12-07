@@ -17,8 +17,22 @@
       <h1 class="display-4">Hello, <?= session()->get('username'); ?>!</h1>
       <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
       <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <span><a class="btn btn-primary btn-lg" href="<?= base_url('/logout'); ?>" role="button">Logout</a>
+      <?php
+        foreach($product as $prod) {
+      ?>
+      <div class="card" style="width: 18rem;">
+         <img class="card-img-top" src="<?= $prod['urlGambarHotel']; ?>" alt="Card image cap">
+         <div class="card-body">
+            <h5 class="card-title"><?= $prod['namaHotel']; ?></h5>
+            <p class="card-text"><?= $prod['deskripsiHotel']; ?></p>
+            <a class="btn btn-primary" href="http://localhost/travelight/public/products/view/<?=$prod['idHotel'];?>">View</a>
+         </div>
+      </div>
+      <?php 
+      }
+      ?>
+      <br></br>
+      <span><a class="btn btn-danger" href="<?= base_url('/logout'); ?>" role="button">Logout</a>
          <a class="btn btn-primary" href="http://localhost/travelight/public/customer/edit/<?= session()->get('idCustomer'); ?>">Edit Profile</a></span>
    </div>
 
