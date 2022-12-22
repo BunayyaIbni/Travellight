@@ -33,7 +33,7 @@ class Login extends BaseController
                     'noHpCustomer'          => $data['noHpCustomer'],
                     'emailCustomer'         => $data['emailCustomer'],
                     'alamatCustomer'        => $data['alamatCustomer'],
-                    'logged_in'             => TRUE
+                    'logged_in'             => 'customer'
                 ];
                 $session->set($ses_data);
                 return redirect()->to(base_url('dashboard'));
@@ -76,7 +76,7 @@ class Login extends BaseController
                     'emailPemilikHotel'         => $data['emailPemilikHotel'],
                     'alamatPemilikHotel'        => $data['alamatPemilikHotel'],
                     'noRekPemilikHotel'         => $data['noRekPemilikHotel'],
-                    'logged_in'             => TRUE
+                    'logged_in'                 => 'owner'
                 ];
                 $session->set($ses_data);
                 return redirect()->to(base_url('products'));
@@ -117,7 +117,7 @@ class Login extends BaseController
                     'logged_in'             => TRUE
                 ];
                 $session->set($ses_data);
-                return redirect()->to(base_url('dashboard'));
+                return redirect()->to(base_url('verifpembayaran'));
             }else{
                 $session->setFlashdata('msg', 'Wrong Password');
                 return redirect()->to(base_url('login/admin'));

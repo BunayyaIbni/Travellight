@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  </head>
-
  
     <title>Login</title>
   </head>
@@ -16,7 +14,7 @@
         <div class="row justify-content-md-center">
  
             <div class="col-6">
-                <h1>Sign In as Administrator</h1>
+                <h1>Sign In as Owner</h1>
                 <?php if(session()->getFlashdata('msg')):?>
                     <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
                 <?php endif;?>
@@ -31,6 +29,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
+                <p>belum punya akun? <a href="http://localhost/travelight/public/signup/customer">Daftar</a></p>
             </div>
              
         </div>

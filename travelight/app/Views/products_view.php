@@ -18,9 +18,41 @@
                     <div class="alert alert-danger"><?= $validation->listErrors() ?></div>
                 <?php endif;?>
                 <p><?= $product['lokasiHotel']?></p>
-                <img class="card-img-top" src="<?= $product['urlGambarHotel']?>" alt="Card image cap">
+                <img class="card-img-top" src="assets/img/<?= $product['urlGambarHotel']?>" alt="Card image cap">
                 <br></br>
                 <p class="card-text"><?= $product['deskripsiHotel']; ?></p>
+                <table class='table table-bordered align-middle text-center'>
+               <thread>
+                <tr>
+                  <th>Jenis Kamar</th>
+                  <th>Harga</th>
+                  <th>Sisa Kamar</th>
+                  <th colspan = "2">aksi</th>
+                </tr>
+               </thread> 
+               <tbody>
+
+                <?php
+                  foreach($room as $row) {
+                     if ($row['idHotel'] == $product['idHotel'] && $row['status'] == 'available') {
+                ?> 
+
+                  <tr>
+                     <td> <?= $row['jenisKamar']; ?> </td>
+                     <td> <?= $row['harga']; ?> </td>
+                     <td> <?= $row['stok']; ?> </td>
+                     <span>
+                     <td>
+                        <a class="btn btn-primary" href="http://localhost/travelight/public/book/<?=$row['idKamar'];?>">Pesan</a>
+                     </td>
+                     </span>
+                     <?php 
+                           } 
+                        } 
+                     ?>
+                  </tr>
+               </tbody>
+              </table>
                 <button class="btn btn-primary" onclick="location.href='http://localhost/travelight/public/dashboard';">Back</button>
             </div>
         </div>

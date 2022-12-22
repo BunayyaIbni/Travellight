@@ -50,8 +50,11 @@ $routes->post('/login/owner/owner_auth', 'Login::owner_auth');
 
 $routes->get('/login/admin', 'Login::admin');
 $routes->post('/login/admin/admin_auth', 'Login::admin_auth');
+$routes->get('/verifpembayaran', 'VerifPayment::index');
+$routes->get('/verifpembayaran/(:num)', 'VerifPayment::verif/$1');
+$routes->post('/verifpembayaran/save/(:num)', 'VerifPayment::save_verif/$1');
 
-$routes->get('/tampilseluruhdata', 'TampilSeluruhData::customer');
+$routes->get('/dashboard', 'Dashboard::index');
 $routes->get('/customer/edit/(:num)', 'Profile::edit/$1');
 $routes->post('customer/update/(:num)', 'Profile::update/$1');
 
@@ -64,10 +67,22 @@ $routes->get('products/delete/(:num)', 'Product::delete/$1');
 $routes->get('/products/view/(:num)', 'Dashboard::view/$1');
 
 $routes->get('/rooms', 'Room::index');
-$routes->get('/rooms/add', 'Room::add');
+$routes->get('/rooms/add/(:num)', 'Room::add/$1');
+$routes->post('/rooms/add/save/(:num)', 'Room::save_room/$1');
+$routes->get('/rooms/edit/(:num)', 'Room::edit/$1');
+$routes->post('rooms/update/(:num)', 'Room::update_room/$1');
+$routes->get('rooms/delete/(:num)', 'Room::delete/$1');
 
-$routes->get('/dashboard', 'Dashboard::index');
+$routes->get('/book/(:num)', 'Booking::pesan/$1');
+$routes->post('/book/save/(:num)', 'Booking::save_pesan/$1');
+
+$routes->get('/orders', 'Payment::index');
+$routes->get('/pay/(:num)', 'Payment::bayar/$1');
+$routes->post('/pay/save/(:num)', 'Payment::save_bayar/$1');
+
 $routes->get('/logout', 'Login::logout');
+
+$routes->get('/dashboard/cari', 'Dashboard::cari');
 
 /*
  * --------------------------------------------------------------------

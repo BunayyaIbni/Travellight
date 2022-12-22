@@ -14,14 +14,26 @@
 
 <body>
    <div class="jumbotron">
-      <h1 class="display-4">Hello, <?= session()->get('username'); ?>!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <h1 class="display-4">Hello, <?= session()->get('namaCustomer'); ?>!</h1>
+      <span><a class="btn btn-danger" href="<?= base_url('/logout'); ?>" role="button">Logout</a>
+         <a class="btn btn-primary" href="http://localhost/travelight/public/customer/edit/<?= session()->get('idCustomer'); ?>">Edit Profile</a>
+         <a class="btn btn-primary" href="<?= base_url('/orders'); ?>">List Pesanan</a>
+      </span>
       <hr class="my-4">
+      <table>
+      <form action="dashboard/cari" method="get">
+         <tr>
+            <td><input type="text" name="cari" class="form-control" id="InputForAmount" placeholder="Cari Hotel"></td>
+            <td><button type="submit" class="btn btn-primary" value="Cari">Cari</button></td>
+         </tr>
+      </table>
+   </br>
+   </br>
       <?php
         foreach($product as $prod) {
       ?>
-      <div class="card" style="width: 18rem;">
-         <img class="card-img-top" src="<?= $prod['urlGambarHotel']; ?>" alt="Card image cap">
+      <div class="card mb-3" style="max-width: 600px;">
+         <img class="card-img-top" src="assets/img/<?= $prod['urlGambarHotel']; ?>" alt="Card image cap">
          <div class="card-body">
             <h5 class="card-title"><?= $prod['namaHotel']; ?></h5>
             <p class="card-text"><?= $prod['deskripsiHotel']; ?></p>
@@ -33,7 +45,8 @@
       ?>
       <br></br>
       <span><a class="btn btn-danger" href="<?= base_url('/logout'); ?>" role="button">Logout</a>
-         <a class="btn btn-primary" href="http://localhost/travelight/public/customer/edit/<?= session()->get('idCustomer'); ?>">Edit Profile</a></span>
+         <a class="btn btn-primary" href="http://localhost/travelight/public/customer/edit/<?= session()->get('idCustomer'); ?>">Edit Profile</a>
+      </span>
    </div>
 
    <!-- Optional JavaScript -->

@@ -1,0 +1,779 @@
+CRITICAL - 2022-12-10 03:33:53 --> Class "App\Controllers\HotelModel" not found
+in APPPATH\Controllers\Room.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:34:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Room.php on line 43.
+ 1 APPPATH\Controllers\Room.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Room.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:35:23 --> Call to a member function find() on null
+in APPPATH\Controllers\Room.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:36:23 --> Class "App\Controllers\hotel" not found
+in APPPATH\Controllers\Room.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:39:50 --> Call to undefined function App\Controllers\mysql_query()
+in APPPATH\Controllers\Room.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:41:39 --> Undefined variable $mysqli
+in APPPATH\Controllers\Room.php on line 45.
+ 1 APPPATH\Controllers\Room.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mysqli', 'APPPATH\\Controllers\\Room.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:48:03 --> Call to undefined function App\Controllers\mysql_query()
+in APPPATH\Controllers\Room.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:50:36 --> Undefined variable $mysqli
+in APPPATH\Controllers\Room.php on line 45.
+ 1 APPPATH\Controllers\Room.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mysqli', 'APPPATH\\Controllers\\Room.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:51:01 --> Class "App\Controllers\mysqli" not found
+in APPPATH\Controllers\Room.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:53:35 --> Class "App\Controllers\mysqli" not found
+in APPPATH\Controllers\Room.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:53:43 --> Undefined variable $db
+in APPPATH\Controllers\Room.php on line 47.
+ 1 APPPATH\Controllers\Room.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Room.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:54:04 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+in APPPATH\Controllers\Room.php on line 49.
+ 1 APPPATH\Controllers\Room.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$num_rows', 'APPPATH\\Controllers\\Room.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:57:20 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `waktuMulaiTersedia`, `waktuAkhirTersedia`, `stok`) VALUES (:idHotel:, :jenisKamar:, :harga:, :waktuMulaiTersedia:, :waktuAkhirTersedia:, :stok:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `waktuMulaiTersedia`, `waktuAkhirTersedia`, `stok`) VALUES (:idHotel:, :jenisKamar:, :harga:, :waktuMulaiTersedia:, :waktuAkhirTersedia:, :stok:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `waktuMulaiTersedia`, `waktuAkhirTersedia`, `stok`) VALUES (:idHotel:, :jenisKamar:, :harga:, :waktuMulaiTersedia:, :waktuAkhirTersedia:, :stok:)', [...], false)
+ 6 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\Room.php(64): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:57:37 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\Room.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:59:57 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `waktuMulaiTersedia`, `waktuAkhirTersedia`, `stok`) VALUES (:idHotel:, :jenisKamar:, :harga:, :waktuMulaiTersedia:, :waktuAkhirTersedia:, :stok:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `waktuMulaiTersedia`, `waktuAkhirTersedia`, `stok`) VALUES (:idHotel:, :jenisKamar:, :harga:, :waktuMulaiTersedia:, :waktuAkhirTersedia:, :stok:)', [...], false)
+ 6 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\Room.php(65): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 04:06:56 --> Undefined variable $product
+in APPPATH\Views\rooms_add.php on line 21.
+ 1 APPPATH\Views\rooms_add.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH\\Views\\rooms_add.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rooms_add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rooms_add', [], true)
+ 5 APPPATH\Controllers\Room.php(35): view('rooms_add')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 04:08:32 --> Undefined variable $validation
+in APPPATH\Views\rooms_add.php on line 21.
+ 1 APPPATH\Views\rooms_add.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\rooms_add.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rooms_add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rooms_add', [], true)
+ 5 APPPATH\Controllers\Room.php(35): view('rooms_add')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 04:09:55 --> Undefined variable $validation
+in APPPATH\Views\rooms_add.php on line 22.
+ 1 APPPATH\Views\rooms_add.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\rooms_add.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rooms_add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rooms_add', [], true)
+ 5 APPPATH\Controllers\Room.php(35): view('rooms_add')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 04:14:47 --> Undefined variable $id
+in APPPATH\Controllers\Room.php on line 42.
+ 1 APPPATH\Controllers\Room.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Room.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 04:15:05 --> Undefined variable $product
+in APPPATH\Controllers\Room.php on line 43.
+ 1 APPPATH\Controllers\Room.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH\\Controllers\\Room.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 04:20:57 --> Undefined variable $product
+in APPPATH\Controllers\Room.php on line 43.
+ 1 APPPATH\Controllers\Room.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH\\Controllers\\Room.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 04:21:08 --> Undefined variable $id
+in APPPATH\Controllers\Room.php on line 47.
+ 1 APPPATH\Controllers\Room.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Room.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->save_room()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 08:03:04 --> Undefined variable $product
+in APPPATH\Views\rooms_add.php on line 21.
+ 1 APPPATH\Views\rooms_add.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH\\Views\\rooms_add.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rooms_add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rooms_add', [], true)
+ 5 APPPATH\Controllers\Room.php(36): view('rooms_add')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 08:03:59 --> Undefined variable $product
+in APPPATH\Views\rooms_add.php on line 21.
+ 1 APPPATH\Views\rooms_add.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH\\Views\\rooms_add.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rooms_add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rooms_add', [], true)
+ 5 APPPATH\Controllers\Room.php(37): view('rooms_add')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 08:04:01 --> Undefined variable $product
+in APPPATH\Views\rooms_add.php on line 21.
+ 1 APPPATH\Views\rooms_add.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH\\Views\\rooms_add.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rooms_add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rooms_add', [], true)
+ 5 APPPATH\Controllers\Room.php(37): view('rooms_add')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 08:06:03 --> Too few arguments to function App\Controllers\Room::add(), 0 passed in C:\xampp\htdocs\travelight\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Room.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->add()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 08:14:55 --> Invalid file: room.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('room.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('room', [], true)
+ 3 APPPATH\Controllers\Room.php(29): view('room', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Room->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 08:40:16 --> Undefined array key "idHotel"
+in APPPATH\Views\products.php on line 51.
+ 1 APPPATH\Views\products.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idHotel"', 'APPPATH\\Views\\products.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\products.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('products', [], true)
+ 5 APPPATH\Controllers\Product.php(29): view('products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 11:57:28 --> Undefined variable $data
+in APPPATH/Controllers/Product.php on line 38.
+ 1 APPPATH/Controllers/Product.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH/Controllers/Product.php', 38)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->table()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 12:15:45 --> Unmatched '}'
+in APPPATH/Views/products.php on line 87.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('products', [], true)
+ 3 APPPATH/Controllers/Product.php(29): view('products', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 12:32:46 --> Unclosed '{' on line 20
+in APPPATH/Views/products.php on line 105.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('products', [], true)
+ 3 APPPATH/Controllers/Product.php(29): view('products', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 12:58:25 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ho...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(119): CodeIgniter\BaseModel->delete(Array)
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('2')
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-10 12:58:25 --> Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'2\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'2\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'2\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `hotel`
+WHERE `idHotel` IN :idHotel:', [...], false)
+ 5 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/Product.php(119): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('2')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 12:58:48 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ho...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(119): CodeIgniter\BaseModel->delete(Array)
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('2')
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-10 12:58:48 --> Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'2\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'2\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'2\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `hotel`
+WHERE `idHotel` IN :idHotel:', [...], false)
+ 5 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/Product.php(119): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('2')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 13:19:58 --> Undefined property: App\Controllers\Product::$room
+in APPPATH/Controllers/Product.php on line 28.
+ 1 APPPATH/Controllers/Product.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Product::$room', 'APPPATH/Controllers/Product.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 13:20:27 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Product.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 13:22:36 --> Undefined property: App\Controllers\Product::$model
+in APPPATH/Controllers/Product.php on line 60.
+ 1 APPPATH/Controllers/Product.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Product::$model', 'APPPATH/Controllers/Product.php', 60)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->save_product()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 13:23:08 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ho...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(119): CodeIgniter\BaseModel->delete(Array)
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('2')
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-10 13:23:08 --> Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'2\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'2\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'2\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `hotel`
+WHERE `idHotel` IN :idHotel:', [...], false)
+ 5 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/Product.php(119): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('2')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 13:28:52 --> mysqli_sql_exception: Cannot truncate a table referenced in a foreign key constraint (`travelight`.`pesanan`, CONSTRAINT `pesanan_ibfk_1` FOREIGN KEY (`idKamar`) REFERENCES `travelight`.`kamar` (`idKamar`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('TRUNCATE `kamar...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `kamar...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `kamar...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2323): CodeIgniter\Database\BaseConnection->query('TRUNCATE `kamar...', NULL, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(772): CodeIgniter\Database\BaseBuilder->truncate('4')
+#5 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(119): CodeIgniter\Model->__call('truncate', Array)
+#6 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('4')
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-10 13:28:52 --> Cannot truncate a table referenced in a foreign key constraint (`travelight`.`pesanan`, CONSTRAINT `pesanan_ibfk_1` FOREIGN KEY (`idKamar`) REFERENCES `travelight`.`kamar` (`idKamar`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('TRUNCATE `kamar`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `kamar`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `kamar`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2323): CodeIgniter\Database\BaseConnection->query('TRUNCATE `kamar`', null, false)
+ 5 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->truncate('4')
+ 6 APPPATH/Controllers/Product.php(119): CodeIgniter\Model->__call('truncate', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('4')
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 13:29:41 --> mysqli_sql_exception: Cannot truncate a table referenced in a foreign key constraint (`travelight`.`pesanan`, CONSTRAINT `pesanan_ibfk_1` FOREIGN KEY (`idKamar`) REFERENCES `travelight`.`kamar` (`idKamar`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('TRUNCATE `kamar...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `kamar...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `kamar...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2323): CodeIgniter\Database\BaseConnection->query('TRUNCATE `kamar...', NULL, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(772): CodeIgniter\Database\BaseBuilder->truncate('4')
+#5 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(119): CodeIgniter\Model->__call('truncate', Array)
+#6 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('4')
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-10 13:29:41 --> Cannot truncate a table referenced in a foreign key constraint (`travelight`.`pesanan`, CONSTRAINT `pesanan_ibfk_1` FOREIGN KEY (`idKamar`) REFERENCES `travelight`.`kamar` (`idKamar`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('TRUNCATE `kamar`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `kamar`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `kamar`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2323): CodeIgniter\Database\BaseConnection->query('TRUNCATE `kamar`', null, false)
+ 5 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->truncate('4')
+ 6 APPPATH/Controllers/Product.php(119): CodeIgniter\Model->__call('truncate', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('4')
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 13:30:46 --> mysqli_sql_exception: Cannot truncate a table referenced in a foreign key constraint (`travelight`.`pesanan`, CONSTRAINT `pesanan_ibfk_1` FOREIGN KEY (`idKamar`) REFERENCES `travelight`.`kamar` (`idKamar`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('TRUNCATE `kamar...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `kamar...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `kamar...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2323): CodeIgniter\Database\BaseConnection->query('TRUNCATE `kamar...', NULL, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(772): CodeIgniter\Database\BaseBuilder->truncate()
+#5 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(119): CodeIgniter\Model->__call('truncate', Array)
+#6 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('4')
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-10 13:30:46 --> Cannot truncate a table referenced in a foreign key constraint (`travelight`.`pesanan`, CONSTRAINT `pesanan_ibfk_1` FOREIGN KEY (`idKamar`) REFERENCES `travelight`.`kamar` (`idKamar`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('TRUNCATE `kamar`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `kamar`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `kamar`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2323): CodeIgniter\Database\BaseConnection->query('TRUNCATE `kamar`', null, false)
+ 5 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->truncate()
+ 6 APPPATH/Controllers/Product.php(119): CodeIgniter\Model->__call('truncate', [])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('4')
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 13:38:57 --> Undefined constant "App\Controllers\idHotel"
+in APPPATH/Controllers/Product.php on line 119.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('4')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 13:41:04 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ho...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(120): CodeIgniter\BaseModel->delete(Array)
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-10 13:41:04 --> Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `hotel`
+WHERE `idHotel` IN :idHotel:', [...], false)
+ 5 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/Product.php(120): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 13:41:57 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ho...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(120): CodeIgniter\BaseModel->delete(Array)
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-10 13:41:57 --> Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `hotel`
+WHERE `idHotel` IN :idHotel:', [...], false)
+ 5 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/Product.php(120): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 13:42:35 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ho...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(120): CodeIgniter\BaseModel->delete(Array)
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-10 13:42:35 --> Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `hotel`
+WHERE `idHotel` IN :idHotel:', [...], false)
+ 5 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/Product.php(120): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 13:42:52 --> mysqli_sql_exception: Cannot truncate a table referenced in a foreign key constraint (`travelight`.`pesanan`, CONSTRAINT `pesanan_ibfk_1` FOREIGN KEY (`idKamar`) REFERENCES `travelight`.`kamar` (`idKamar`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('TRUNCATE `kamar...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `kamar...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `kamar...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2323): CodeIgniter\Database\BaseConnection->query('TRUNCATE `kamar...', NULL, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(772): CodeIgniter\Database\BaseBuilder->truncate('5')
+#5 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(119): CodeIgniter\Model->__call('truncate', Array)
+#6 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-10 13:42:52 --> Cannot truncate a table referenced in a foreign key constraint (`travelight`.`pesanan`, CONSTRAINT `pesanan_ibfk_1` FOREIGN KEY (`idKamar`) REFERENCES `travelight`.`kamar` (`idKamar`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('TRUNCATE `kamar`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `kamar`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `kamar`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2323): CodeIgniter\Database\BaseConnection->query('TRUNCATE `kamar`', null, false)
+ 5 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->truncate('5')
+ 6 APPPATH/Controllers/Product.php(119): CodeIgniter\Model->__call('truncate', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 13:46:22 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ho...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(123): CodeIgniter\BaseModel->delete(Array)
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-10 13:46:22 --> Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `hotel`
+WHERE `idHotel` IN :idHotel:', [...], false)
+ 5 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/Product.php(123): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 13:46:47 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ho...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(123): CodeIgniter\BaseModel->delete(Array)
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-10 13:46:47 --> Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `hotel`
+WHERE `idHotel` IN :idHotel:', [...], false)
+ 5 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/Product.php(123): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 13:46:52 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ho...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(123): CodeIgniter\BaseModel->delete(Array)
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-10 13:46:52 --> Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'5\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `hotel`
+WHERE `idHotel` IN :idHotel:', [...], false)
+ 5 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/Product.php(123): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('5')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 13:52:02 --> Undefined variable $product
+in APPPATH/Views/hapus.php on line 20.
+ 1 APPPATH/Views/hapus.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH/Views/hapus.php', 20)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/hapus.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('hapus', [], true)
+ 5 APPPATH/Controllers/Hapus.php(29): view('hapus', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hapus->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hapus))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 14:06:15 --> mysqli_sql_exception: Cannot truncate a table referenced in a foreign key constraint (`travelight`.`pesanan`, CONSTRAINT `pesanan_ibfk_1` FOREIGN KEY (`idKamar`) REFERENCES `travelight`.`kamar` (`idKamar`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('TRUNCATE `kamar...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `kamar...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `kamar...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2323): CodeIgniter\Database\BaseConnection->query('TRUNCATE `kamar...', NULL, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(772): CodeIgniter\Database\BaseBuilder->truncate(Array)
+#5 /opt/lampp/htdocs/travelight/app/Controllers/Hapus.php(39): CodeIgniter\Model->__call('truncate', Array)
+#6 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Hapus->delete('5')
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hapus))
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-10 14:06:15 --> Cannot truncate a table referenced in a foreign key constraint (`travelight`.`pesanan`, CONSTRAINT `pesanan_ibfk_1` FOREIGN KEY (`idKamar`) REFERENCES `travelight`.`kamar` (`idKamar`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('TRUNCATE `kamar`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `kamar`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `kamar`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2323): CodeIgniter\Database\BaseConnection->query('TRUNCATE `kamar`', null, false)
+ 5 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->truncate([...])
+ 6 APPPATH/Controllers/Hapus.php(39): CodeIgniter\Model->__call('truncate', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hapus->delete('5')
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hapus))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 16:10:28 --> Invalid file: rooms_edit.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rooms_edit.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('rooms_edit', [], true)
+ 3 APPPATH/Controllers/Room.php(119): view('rooms_edit', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Room->edit('3')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 16:37:54 --> Undefined property: CodeIgniter\HTTP\RedirectResponse::$to
+in APPPATH/Controllers/Room.php on line 157.
+ 1 APPPATH/Controllers/Room.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\RedirectResponse::$to', 'APPPATH/Controllers/Room.php', 157)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Room->update_room('3')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:41:10 --> Undefined variable $product
+in APPPATH/Views/rooms_edit.php on line 41.
+ 1 APPPATH/Views/rooms_edit.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH/Views/rooms_edit.php', 41)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rooms_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('rooms_edit', [], true)
+ 5 APPPATH/Controllers/Room.php(119): view('rooms_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Room->edit('3')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:41:33 --> syntax error, unexpected identifier "mb"
+in APPPATH/Views/rooms_edit.php on line 35.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('rooms_edit', [], true)
+ 3 APPPATH/Controllers/Room.php(119): view('rooms_edit', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Room->edit('3')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:41:48 --> Undefined variable $row
+in APPPATH/Views/rooms_edit.php on line 33.
+ 1 APPPATH/Views/rooms_edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH/Views/rooms_edit.php', 33)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rooms_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('rooms_edit', [], true)
+ 5 APPPATH/Controllers/Room.php(119): view('rooms_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Room->edit('3')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 17:57:41 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`)) in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ho...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ho...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ho...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ho...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 /opt/lampp/htdocs/travelight/app/Controllers/Product.php(123): CodeIgniter\BaseModel->delete(Array)
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Product->delete('2')
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-10 17:57:41 --> Cannot delete or update a parent row: a foreign key constraint fails (`travelight`.`kamar`, CONSTRAINT `kamar_ibfk_1` FOREIGN KEY (`idHotel`) REFERENCES `hotel` (`idHotel`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'2\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'2\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `hotel`
+WHERE `idHotel` IN (\'2\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `hotel`
+WHERE `idHotel` IN :idHotel:', [...], false)
+ 5 SYSTEMPATH/Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/Product.php(123): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Product->delete('2')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -29,7 +29,8 @@
                     </div>
                     <div class="mb-3">
                         <label for="InputForDesc" class="form-label">Description</label>
-                        <input type="text" name="desc" class="form-control" id="InputForDesc">
+                        </br>
+                        <textarea name="desc" id="InputForDesc"> </textarea>
                     </div>
                     <div class="mb-3">
                         <label for="InputForUrlGbr" class="form-label">Url Hotel Picture</label>

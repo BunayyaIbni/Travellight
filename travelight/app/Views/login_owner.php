@@ -10,28 +10,35 @@
     <title>Login</title>
   </head>
   <body>
-    <div class="container">
-        <div class="row justify-content-md-center">
- 
-            <div class="col-6">
-                <h1>Sign In as Hotel Owner</h1>
-                <?php if(session()->getFlashdata('msg')):?>
-                    <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
-                <?php endif;?>
-                <form action="owner/owner_auth" method="post">
-                    <div class="mb-3">
-                        <label for="InputForEmail" class="form-label">Username</label>
-                        <input type="text" name="username" class="form-control" id="InputForUsername" value="<?= set_value('username') ?>">
+  <div class="bg-image" style="background-image: url('../../public/assets/img/bg-awal.png'); background-size: cover; height: 100vh;">
+        <div class="container">
+            <img class="rounded float-left mt-4 mb-5" src="../../public/assets/img/logo-tvl.png" alt="" style="height: 60px; width: 200px">
+            <div class="row justify-content-md-center">
+                <div class="col-6 mx-auto">
+                    <div class="card shadow border">
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="mb-3">Login as Hotel Owner</h2>
+                            <?php if(session()->getFlashdata('msg')):?>
+                                <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
+                            <?php endif;?>
+                            <form action="owner/owner_auth" method="post">
+                                <div class="mb-3">
+                                    <label for="InputForEmail" class="form-label">Username</label>
+                                    <input type="text" name="username" class="form-control" id="InputForUsername" value="<?= set_value('username') ?>">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="InputForPassword" class="form-label">Password</label>
+                                    <input type="password" name="password" class="form-control" id="InputForPassword">
+                                </div>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="InputForPassword" class="form-label">Password</label>
-                        <input type="password" name="password" class="form-control" id="InputForPassword">
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary mt-2">Login</button>
                     </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
-                </form>
-                <p>belum punya akun? <a href="http://localhost/travelight/public/signup/owner">Daftar</a></p>
+                    </form>
+                    <p class="text-white">Belum punya akun? <a href="http://localhost/travelight/public/signup/owner">Daftar</a></p>
+                </div>
             </div>
-             
         </div>
     </div>
      

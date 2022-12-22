@@ -4,6 +4,6 @@ use CodeIgniter\Model;
 
 class RoomModel extends Model{
     protected $table = 'kamar';
-    protected $allowedFields = ['idKamar','idHotel','jenisKamar', 'harga', 'waktuMulaiTersedia', 'waktuAkhirTersedia', 'stok'];
+    protected $allowedFields = ['idKamar','idHotel','jenisKamar', 'harga', 'stok', 'status'];
     protected $primaryKey = 'idKamar';
 }

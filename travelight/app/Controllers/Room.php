@@ -4,14 +4,17 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\RoomModel;
+use App\Models\HotelModel;
 
 class Room extends BaseController
 {
     protected $room;
- 
+    protected $product;
+
     function __construct()
     {
         $this->room = new RoomModel();
+        $this->product = new HotelModel();
     }
 
     public function index()
@@ -23,102 +26,120 @@ class Room extends BaseController
         else{
             $room = new RoomModel();
             $data['room'] = $room->findAll();
-            return view('room', $data);
+            // return view('room', $data);
         }
 
     }
 
-    public function add() 
+    public function add($id) 
     {
-        return view('rooms_add');
+        $product = new HotelModel();
+        $data['room'] = $product->find($id);
+        return view('rooms_add', $data);
     }
 
-    public function save_room()
+    public function save_room($id)
     {
         helper(['form']);
-        //$id = session()->get('idPemilikHotel');
+        if (!$this->validate([
+            'jenisKmr' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} harus diisi'
+                ]
+            ],
+            'harga' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} harus diisi'
+                ]
+            ],
+            'stok' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} harus diisi'
+                ]
+            ]
+        ])) {
+            session()->setFlashdata('error', $this->validator->listErrors());
+            return redirect()->back();
+        }
 
         $rules = [
             'jenisKmr' => 'required|min_length[3]|max_length[30]',
             'harga' => 'required|min_length[3]|max_length[30]',
-            'wktMulai' => 'required|min_length[3]|max_length[100]',
-            'wktAkhir' => 'required|min_length[3]|max_length[100]',
-            'stok' => 'required|min_length[3]|max_length[30]'
+            'stok' => 'required|min_length[1]|max_length[30]'
         ];
-
         if ($this->validate($rules)){
             $model = new RoomModel();
             $data = [
                 'idHotel' => $id,
                 'jenisKamar' => $this->request->getVar('jenisKmr'),
                 'harga' => $this->request->getVar('harga'),
-                'waktuMulaiTersedia' => $this->request->getVar('wktMulai'),
-                'waktuAkhirTersedia' => $this->request->getVar('wktAkhir'),
-                'stok' => $this->request->getVar('stok')
+                'stok' => $this->request->getVar('stok'),
+                'status' => $this->request->getVar('status')
             ];
             $model->save($data);
-            return redirect()->to('/rooms');
+            return redirect()->to(base_url('/products'));
         } else {
             $data['validation'] = $this->validator;
-            echo view('products_add', $data);
+            echo view('rooms_add', $data);
         }
     }
-    
-    //belum
 
     function edit($id)
     {
-        $dataProduct = $this->product->find($id);
+        $dataProduct = $this->room->find($id);
         if (empty($dataProduct)){
-            throw new \CodeIgniter\Exceptions\PageNotFoundException('Data Produk tidak ditemukan');
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Data Kamar tidak ditemukan');
         }
-        $data['product'] = $dataProduct;
-        return view('products_edit', $data);
+        $data['room'] = $dataProduct;
+        return view('rooms_edit', $data);
     }
 
-    public function update($id)
+    public function update_room($id)
     {
         if (!$this->validate([
-            'name' => [
+            'jenisKamar' => [
                 'rules' => 'required',
                 'errors' => [
                     'required' => '{field} harus diisi'
                 ]
             ],
-            'location' => [
+            'harga' => [
                 'rules' => 'required',
                 'errors' => [
                     'required' => '{field} harus diisi'
                 ]
             ],
-            'desc' => [
+            'stok' => [
                 'rules' => 'required',
                 'errors' => [
                     'required' => '{field} harus diisi'
                 ]
-            ],
+            ]
         ])) {
             session()->setFlashdata('error', $this->validator->listErrors());
-            return redirect()->back();
+            return redirect()->to(base_url('/rooms/edit/'.$id));
         }
 
-        $this->product->update($id, [
-            'namaHotel' => $this->request->getVar('name'),
-            'lokasiHotel' => $this->request->getVar('location'),
-            'deskripsiHotel' => $this->request->getVar('desc'),
-            'urlGambarHotel'     => $this->request->getVar('urlGambarHotel')
-        ]);
+        $this->room->update($id, [
+            'jenisKamar'    => $this->request->getVar('jenisKamar'),
+            'harga'         => $this->request->getVar('harga'),
+            'stok'          => $this->request->getVar('stok'),
+            'status'        => $this->request->getVar('status')
+        ]);        
         session()->setFlashdata('message', 'Update Data Produk Berhasil');
-        return redirect()->to('/products');
+        return redirect()->to(base_url('/products'));
     }
 
     function delete($id){
-        $dataProduct = $this->product->find($id);
+        $dataProduct = $this->room->find($id);
         if (empty($dataProduct)){
-            throw new \CodeIgniter\Exceptions\PageNotFoundException('Data produk tidak ditemukan');
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Data Kamar tidak ditemukan');
         }
-        $this->product->delete($id);
+        $this->room->delete($id);
         session()->setFlashdata('message', 'Delete Data Produk Berhasil');
-        return redirect()->to('/products');
+        return redirect()->to(base_url('/products'));
     }
 }

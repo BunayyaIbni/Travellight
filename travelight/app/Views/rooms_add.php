@@ -18,7 +18,10 @@
                 <?php if(isset($validation)):?>
                     <div class="alert alert-danger"><?= $validation->listErrors() ?></div>
                 <?php endif;?>
-                <form action="add/save" method="post">
+
+                <form action="<?= base_url('rooms/add/save/' . $room['idHotel']) ?>" method="post">
+                
+                    <?= csrf_field(); ?>
                     <div class="mb-3">
                         <label for="InputForJenisKmr" class="form-label">Jenis Kamar</label>
                         <input type="text" name="jenisKmr" class="form-control" id="InputForJenisKmr">
@@ -28,12 +31,12 @@
                         <input type="text" name="harga" class="form-control" id="InputForHarga">
                     </div>
                     <div class="mb-3">
-                        <label for="InputForwktMulai" class="form-label">Waktu Mulai Tersedia</label>
-                        <input type="text" name="wktMulai" class="form-control" id="InputForwktMulai">
+                        <label for="InputForStok" class="form-label">Stok</label>
+                        <input type="text" name="stok" class="form-control" id="InputForStok">
                     </div>
                     <div class="mb-3">
-                        <label for="InputForwktAkhir" class="form-label">Waktu Akhir Tersedia</label>
-                        <input type="text" name="wktAkhir" class="form-control" id="InputForwktAkhir">
+                        <label for="InputForStok" class="form-label">Status</label>
+                        <input type="text" name="status" class="form-control" id="InputForStatus">
                     </div>
                     <button type="submit" class="btn btn-primary">Tambah</button>
                 </form>
