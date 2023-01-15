@@ -8,6 +8,6 @@ Travellight merupakan aplikasi untuk booking hotel. Dalam pengembangannya, aplik
 
 Lampiran Dokumen:
 1. SKPL - https://bit.ly/3IMxvCT
-2. DDPL - https://bit.ly/3CP6BGO
+2. DPPL - https://bit.ly/3CP6BGO
 3. DUPL - https://bit.ly/3CMgpS4
 4. User Manual - https://bit.ly/3CRNvjc
