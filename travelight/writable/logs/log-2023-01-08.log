@@ -1,0 +1,84 @@
+CRITICAL - 2023-01-08 06:14:18 --> Call to a member function move() on null
+in APPPATH\Controllers\Payment.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Payment->save_bayar('16')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 06:16:12 --> Call to a member function move() on null
+in APPPATH\Controllers\Payment.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Payment->save_bayar('16')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 06:18:45 --> Undefined variable $dataBerkas
+in APPPATH\Controllers\Payment.php on line 53.
+ 1 APPPATH\Controllers\Payment.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataBerkas', 'APPPATH\\Controllers\\Payment.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Payment->save_bayar('16')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 06:19:23 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Payment.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Payment->save_bayar('16')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 06:19:48 --> Call to a member function getName() on null
+in APPPATH\Controllers\Payment.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Payment->save_bayar('16')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 06:19:59 --> Call to a member function getName() on null
+in APPPATH\Controllers\Payment.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Payment->save_bayar('16')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 06:20:05 --> Call to a member function getName() on null
+in APPPATH\Controllers\Payment.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Payment->save_bayar('16')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 06:25:19 --> Undefined variable $rules
+in APPPATH\Controllers\Payment.php on line 51.
+ 1 APPPATH\Controllers\Payment.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'APPPATH\\Controllers\\Payment.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Payment->save_bayar('16')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 06:46:44 --> Call to a member function getName() on null
+in APPPATH\Controllers\Product.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->save_product()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 07:01:54 --> Undefined variable $upload
+in APPPATH\Controllers\Product.php on line 114.
+ 1 APPPATH\Controllers\Product.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $upload', 'APPPATH\\Controllers\\Product.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->update('13')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-08 07:11:59 --> mysqli_sql_exception: COLLATION 'utf8_general_ci' is not valid for CHARACTER SET 'utf8mb4' in C:\xampp\htdocs\travelight\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\travelight\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 C:\xampp\htdocs\travelight\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 C:\xampp\htdocs\travelight\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 C:\xampp\htdocs\travelight\app\Controllers\Searching.php(46): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 C:\xampp\htdocs\travelight\system\CodeIgniter.php(927): App\Controllers\Searching->cari()
+#5 C:\xampp\htdocs\travelight\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Searching))
+#6 C:\xampp\htdocs\travelight\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\travelight\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-08 07:11:59 --> COLLATION 'utf8_general_ci' is not valid for CHARACTER SET 'utf8mb4'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM kamar join hotel on kamar.idHotel=hotel.idHotel where kamar.stok >= 1 and hotel.lokasiHotel COLLATE UTF8_GENERAL_CI LIKE "%cirebon%" and kamar.status = "available"  group by kamar.idHotel', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM kamar join hotel on kamar.idHotel=hotel.idHotel where kamar.stok >= 1 and hotel.lokasiHotel COLLATE UTF8_GENERAL_CI LIKE "%cirebon%" and kamar.status = "available"  group by kamar.idHotel')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM kamar join hotel on kamar.idHotel=hotel.idHotel where kamar.stok >= 1 and hotel.lokasiHotel COLLATE UTF8_GENERAL_CI LIKE "%cirebon%" and kamar.status = "available"  group by kamar.idHotel')
+ 4 APPPATH\Controllers\Searching.php(46): CodeIgniter\Database\BaseConnection->query('SELECT * FROM kamar join hotel on kamar.idHotel=hotel.idHotel where kamar.stok >= 1 and hotel.lokasiHotel COLLATE UTF8_GENERAL_CI LIKE "%cirebon%" and kamar.status = "available"  group by kamar.idHotel')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Searching->cari()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Searching))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

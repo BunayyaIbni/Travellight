@@ -1,0 +1,100 @@
+CRITICAL - 2022-12-14 11:59:47 --> Undefined property: App\Controllers\Product::$session
+in APPPATH/Controllers/Product.php on line 19.
+ 1 APPPATH/Controllers/Product.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Product::$session', 'APPPATH/Controllers/Product.php', 19)
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Product->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 12:00:22 --> Undefined property: App\Controllers\Product::$session
+in APPPATH/Controllers/Product.php on line 19.
+ 1 APPPATH/Controllers/Product.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Product::$session', 'APPPATH/Controllers/Product.php', 19)
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Product->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 12:31:25 --> Call to undefined method App\Controllers\Dashboard::session()
+in APPPATH/Controllers/Dashboard.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 12:31:39 --> Undefined property: App\Controllers\Dashboard::$session
+in APPPATH/Controllers/Dashboard.php on line 16.
+ 1 APPPATH/Controllers/Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$session', 'APPPATH/Controllers/Dashboard.php', 16)
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 13:40:54 --> Undefined array key "waktuMulaiTersedia"
+in APPPATH/Views/rooms_edit.php on line 34.
+ 1 APPPATH/Views/rooms_edit.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "waktuMulaiTersedia"', 'APPPATH/Views/rooms_edit.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rooms_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('rooms_edit', [], true)
+ 5 APPPATH/Controllers/Room.php(104): view('rooms_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Room->edit('12')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 13:57:52 --> mysqli_sql_exception: Column 'status' cannot be null in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ka...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/travelight/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 /opt/lampp/htdocs/travelight/system/BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 /opt/lampp/htdocs/travelight/app/Controllers/Room.php(82): CodeIgniter\BaseModel->save(Array)
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Room->save_room('8')
+#10 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+#11 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-14 13:57:52 --> Column 'status' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `stok`, `status`) VALUES (\'8\', \'Kamar Keluarga\', \'400000\', \'1\', NULL)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `stok`, `status`) VALUES (\'8\', \'Kamar Keluarga\', \'400000\', \'1\', NULL)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `stok`, `status`) VALUES (\'8\', \'Kamar Keluarga\', \'400000\', \'1\', NULL)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `stok`, `status`) VALUES (:idHotel:, :jenisKamar:, :harga:, :stok:, :status:)', [...], false)
+ 5 SYSTEMPATH/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH/BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH/Controllers/Room.php(82): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Room->save_room('8')
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 14:00:24 --> mysqli_sql_exception: Column 'status' cannot be null in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ka...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/travelight/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 /opt/lampp/htdocs/travelight/system/BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 /opt/lampp/htdocs/travelight/app/Controllers/Room.php(82): CodeIgniter\BaseModel->save(Array)
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Room->save_room('8')
+#10 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+#11 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-14 14:00:24 --> Column 'status' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `stok`, `status`) VALUES (\'8\', \'Kamar Keluarga\', \'400000\', \'1\', NULL)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `stok`, `status`) VALUES (\'8\', \'Kamar Keluarga\', \'400000\', \'1\', NULL)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `stok`, `status`) VALUES (\'8\', \'Kamar Keluarga\', \'400000\', \'1\', NULL)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kamar` (`idHotel`, `jenisKamar`, `harga`, `stok`, `status`) VALUES (:idHotel:, :jenisKamar:, :harga:, :stok:, :status:)', [...], false)
+ 5 SYSTEMPATH/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH/BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH/Controllers/Room.php(82): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Room->save_room('8')
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Room))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

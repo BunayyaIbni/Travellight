@@ -1,0 +1,51 @@
+CRITICAL - 2022-11-30 12:44:50 --> Class "App\Controllers\LoginAdmin" not found
+in APPPATH/Controllers/Login.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 12:51:55 --> Class "App\Controllers\LoginAdmin" not found
+in APPPATH/Controllers/Login.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->admin_auth()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 13:11:21 --> mysqli_sql_exception: Table 'travelight.Customer' doesn't exist in /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/travelight/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/travelight/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/travelight/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/travelight/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/travelight/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /opt/lampp/htdocs/travelight/app/Controllers/Login.php(22): CodeIgniter\BaseModel->first()
+#7 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(927): App\Controllers\Login->customer_auth()
+#8 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /opt/lampp/htdocs/travelight/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/travelight/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-30 13:11:21 --> Table 'travelight.Customer' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `Customer`
+WHERE `username` = \'gisel\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Customer`
+WHERE `username` = \'gisel\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Customer`
+WHERE `username` = \'gisel\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(22): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->customer_auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
